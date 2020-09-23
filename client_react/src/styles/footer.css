@@ -1,0 +1,27 @@
+i {
+      color: #c0c0c0;
+}
+
+.fa-facebook-f:hover {
+      color: #3b5998;
+}
+
+.fa-twitter:hover {
+      color: #00acee;
+}
+
+.fa-instagram:hover {
+      color: #E1306C;
+}
+
+.fa-linkedin-in:hover {
+      color: #0e76a8;
+}
+
+.fa-github:hover {
+      color: #6e5494;      
+}
+
+.fa-envelope:hover {
+      color: #ffce00;
+}
