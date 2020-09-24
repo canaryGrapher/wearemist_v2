@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-const dotenv = require("dotenv").config({ path: '.env' });
+const dotenv = require("dotenv").config({ path: '../.env' });
 const MongoClient = require("mongodb").MongoClient;
 const getMail = require("./modules/emailSubscriberProvider");
 const CONNECTION_URL = process.env.DATABASE_URL;
