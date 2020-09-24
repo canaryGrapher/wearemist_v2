@@ -96,9 +96,12 @@ async function handleEnter(e) {
                 else if (second.toLowerCase() == "credits") {
                     window.location.assign("https://wearemist.in/credits");
                 }
+                else if (second.toLowerCase() == "announcements") {
+                    window.location.assign("https://wearemist.in/announcements");
+                }
 
                 else if (second == "-h" || second == "-H") {
-                    document.getElementById(`commandOutput${i}`).innerHTML = `List of graphical destinations [destination] -<table style="padding-bottom: 20px;"><tr><td class="pr-5">news</td><td class="commandDescription">News page</td></tr><tr class="pr-5"><td>home</td><td class="commandDescription">Home page of GUI mode</td></tr><tr><td class="pr-5">team</td><td class="commandDescription">Team page</td></tr><tr><td class="pr-5">credits</td><td class="commandDescription">Credits page</td></tr></table>`;
+                    document.getElementById(`commandOutput${i}`).innerHTML = `List of graphical destinations [destination] -<table style="padding-bottom: 20px;"><tr><td class="pr-5">news</td><td class="commandDescription">News page</td></tr><tr><td class="pr-5">announcements</td><td class="commandDescription">Announcement page</td></tr><tr class="pr-5"><td>home</td><td class="commandDescription">Home page of GUI mode</td></tr><tr><td class="pr-5">team</td><td class="commandDescription">Team page</td></tr><tr><td class="pr-5">credits</td><td class="commandDescription">Credits page</td></tr></table>`;
                     addCommand();
                 }
                 else if(second == null) {
