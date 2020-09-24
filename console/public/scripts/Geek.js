@@ -17,7 +17,7 @@ function typeWriter() {
     }
 }
 function exitTerminal() {
-    window.location.replace("/");
+    window.location.assign("https://wearemist.in/");
 }
 
 async function loadBrowser() {
@@ -85,16 +85,16 @@ async function handleEnter(e) {
         else if (first == "loadgui") {
             if (third == null && second != null) {
                 if (second.toLowerCase() == "news") {
-                    window.location.replace("/news");
+                    window.location.assign("https://wearemist.in/news");
                 }
                 else if (second.toLowerCase() == "team") {
-                    window.location.replace("/team");
+                    window.location.assign("https://wearemist.in/team");
                 }
                 else if (second.toLowerCase() == "nongeek") {
-                    window.location.replace("/nonGeek");
+                    window.location.assign("https://wearemist.in/nonGeek");
                 }
                 else if (second.toLowerCase() == "credits") {
-                    window.location.replace("/credits");
+                    window.location.assign("https://wearemist.in/credits");
                 }
 
                 else if (second == "-h" || second == "-H") {
