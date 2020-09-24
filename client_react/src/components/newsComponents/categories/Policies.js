@@ -41,7 +41,7 @@ class Policies extends Component {
                         <div className="container-fluid" style={{paddingTop: "10vh"}}>
                         <CategoryBar />
                         <div className="container mt-20 pt-20">
-                        <h1>Policies and Regulations</h1>
+                        <h1 className="pl-20 pl-md-0">Policies and Regulations</h1>
                         <div className="row pb-20 mb-20" style={{minHeight: "100vh"}}>
                               {certainNews}
                         </div>

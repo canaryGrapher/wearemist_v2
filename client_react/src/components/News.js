@@ -131,31 +131,31 @@ class News extends Component {
             <p className="py-5 pl-10">These are happening in the recently in the cybersecurity world.</p>
           </div>
           <div className="row">
-            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/researchanddevelopment/" className="text-dark">Reasearch and Developement</NavLink></h4>
+            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/researchanddevelopment/" className="text-dark pl-15 pl-md-0">Reasearch and Developement</NavLink></h4>
           </div>
           <div className="row mb-20">
             {rndNews}
           </div>
           <div className="row">
-            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/breaches/" className="text-dark">Breaches</NavLink></h4>
+            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/breaches/" className="text-dark pl-15 pl-md-0">Breaches</NavLink></h4>
           </div>
           <div className="row mb-20">
             {breachNews}
           </div>
           <div className="row">
-            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/vulnerabilities/" className="text-dark">Vulnerabilities</NavLink></h4>
+            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/vulnerabilities/" className="text-dark pl-15 pl-md-0">Vulnerabilities</NavLink></h4>
           </div>
           <div className="row mb-20">
             {vulnNews}
           </div>
           <div className="row">
-            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/fraudsandscams/" className="text-dark">Frauds and Scams</NavLink></h4>
+            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/fraudsandscams/" className="text-dark pl-15 pl-md-0">Frauds and Scams</NavLink></h4>
           </div>
           <div className="row mb-20">
             {fraudNews}
           </div>
           <div className="row">
-            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/policiesandregulations/" className="text-dark">Policies and Regulations</NavLink></h4>
+            <h4 className="text-left font-weight-bold">‎‎‏‏‎<span className="text-danger"> ‎</span><NavLink exact to="/news/policiesandregulations/" className="text-dark pl-15 pl-md-0">Policies and Regulations</NavLink></h4>
           </div>
           <div className="row mb-20">
             {poliNews}
