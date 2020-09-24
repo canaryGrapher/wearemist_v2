@@ -1,5 +1,6 @@
 i {
       color: #c0c0c0;
+      font-size: 2.4rem;
 }
 
 .fa-facebook-f:hover {
@@ -11,7 +12,7 @@ i {
 }
 
 .fa-instagram:hover {
-      color: #E1306C;
+      color: #cd486b;
 }
 
 .fa-linkedin-in:hover {

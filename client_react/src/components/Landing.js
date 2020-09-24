@@ -209,7 +209,7 @@ class Landing extends Component {
                                                 <div className="col-12 col-md-7 text-left my-auto">
                                                       <h2 className="text-center font-weight-bold text-white">Let's connect</h2>
                                                       <p className="text-center">If you'd like to discuss, collaborate or drop some suggestions, write to us down below or drop an email at <a href="sudo@wearemist.in">sudo@wearemist.in</a></p>
-                                                      <form onSubmit={this.handleSubmit}>
+                                                      <form onSubmit={this.handleSubmit} className="px-15">
                                                             <div className="form-group">
                                                                   <label htmlFor="name" className="required">Your Name</label>
                                                                   <input type="text" className="form-control" id="name" name="name" placeholder="Enter your name here" required="required" onChange={this.handleChangeName} />
