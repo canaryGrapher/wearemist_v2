@@ -31,6 +31,7 @@ class Contributorprofile extends Component {
             const medium = this.state.data.medium ? <a href={this.state.data.medium} target="_blank" rel="noopener noreferrer" > <i className="fab fa-medium-m mx-10" style={{ fontSize: '3rem', color: '#0e0e0e' }}></i></a > : null
             const twitter = this.state.data.twitter ? <a href={this.state.data.twitter} target="_blank" rel="noopener noreferrer" > <i className="fab fa-twitter mx-10" style={{ fontSize: '3rem', color: '#00acee' }}></i></a > : null
             const facebook = this.state.data.facebook ? <a href={this.state.data.facebook} target="_blank" rel="noopener noreferrer" > <i className="fab fa-facebook-f mx-10" style={{ fontSize: '3rem', color: '#3b5998' }}></i></a > : null
+            const instagram = this.state.data.instagram ? <a href={this.state.data.instagram} target="_blank" rel="noopener noreferrer" > <i className="fab fa-instagram mx-10" style={{ fontSize: '3rem', color: '#E1306C' }}></i></a > : null
             return (
                   <div className="row-fluid">
                         {loadornot}
@@ -63,6 +64,7 @@ class Contributorprofile extends Component {
                                           {blogger}
                                           {medium}
                                           {facebook}
+                                          {instagram}
                                           {twitter}
                                     </div>
                               </div>

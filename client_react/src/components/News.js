@@ -24,6 +24,7 @@ class News extends Component {
             <div key={item._id} className="h-250 h-md-500 w-full bg-dark newsContainer mb-10 mb-md-0 animate__animated animate__fadeInUp" style={{ borderRightWidth: "2.5px", borderColor: "#fff", borderStyle: "solid" }}>
               <img src={item.highlightPhoto} alt={item.newsHeading} style={{ width: "100%", height: "100%" }} />
               <div className="text-block">
+                <p className="text-white"><span className="p-5 bg-dark">{item.filterTags}</span></p>
                 <h4 className="text-light d-none d-md-block">{item.newsHeading}</h4>
                 <h6 className="text-light font-weight-bold d-md-none">{item.newsHeading}</h6>
               </div>
@@ -42,6 +43,7 @@ class News extends Component {
             <div key={item._id} className="h-250 w-full bg-dark newsContainer mb-10 mb-md-0 animate__animated animate__fadeInUp" style={{ borderBottomWidth: "2.5px", borderColor: "#fff", borderStyle: "solid" }}>
               <img src={item.highlightPhoto} alt={item.newsHeading} style={{ width: "100%", height: "100%" }} />
               <div className="text-block">
+                <p className="text-white"><span className="px-5 bg-dark">{item.filterTags}</span></p>
                 <h6 className="text-light font-weight-bold">{item.newsHeading}</h6>
               </div>
             </div>
@@ -112,6 +114,7 @@ class News extends Component {
           <h3 className="d-md-none mb-0 pb-0">Welcome to CyberManipal</h3>
           <h5 className="pb-20 text-muted">Your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technolgy and supervised by Manipal Inforamtion Security Team.</h5>
         </div>
+        <CategoryBar />
         < div className="row px-10 px-md-0 py-15" >
           <p><span className="px-10 py-5 bg-dark text-light">Trending Now</span>
             <span className="py-5 pl-10 text-wrap">The latest trending news from the cybersecurity world</span></p>
@@ -124,7 +127,6 @@ class News extends Component {
             {sideNews}
           </div>
         </div>
-        <CategoryBar />
         <div className="container mb-20">
           <div className="row px-10 px-md-0">
             <p className="px-10 py-5 bg-dark text-light">Recent Now</p>
