@@ -51,7 +51,7 @@ class Navbar extends Component {
         <div className={show}>
           <ul className="d-flex flex-column justify-content-center py-20 my-auto w-full">
             <li className="w-full text-center responsive-links">
-              <NavLink exact to="/nonGeek" className="mx-auto" style={{ textDecoration: "none", color: "white", fontSize: "3rem" }} onClick={this.toggleMenu}>Home</NavLink>
+              <NavLink exact to="/home" className="mx-auto" style={{ textDecoration: "none", color: "white", fontSize: "3rem" }} onClick={this.toggleMenu}>Home</NavLink>
             </li>
             <li className="w-full text-center responsive-links">
               <NavLink to="/team" className="" style={{ textDecoration: "none", color: "white", fontSize: "3rem" }} onClick={this.toggleMenu}>Team</NavLink>
