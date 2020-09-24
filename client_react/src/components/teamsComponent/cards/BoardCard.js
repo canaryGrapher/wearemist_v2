@@ -7,7 +7,7 @@ function BoardCard(props) {
       return (
             <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                   <div className="card p-0 border-0 text-center">
-                        <img src={props.image} className="img-fluid w-200 h-200 mx-auto" alt={props.name} />
+                        <img src={props.image} className="img-fluid rounded w-200 h-200 mx-auto" alt={props.name} />
                         <div className="content p-0 m-0">
                               <h2 className="content-title p-0 m-0">
                                     {props.name}

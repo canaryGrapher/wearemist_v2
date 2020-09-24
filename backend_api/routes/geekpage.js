@@ -58,7 +58,7 @@ router.get("/getClubNews", (req, res) => {
 
 router.get("/getIP", (req, res) => {
       try{
-            res.send(req.connection.remoteAddress)
+            res.send(req.ip)
       } catch(err) {
             res.status(500).json({msg: "Server Error"})
       }

@@ -10,8 +10,10 @@ function Footer() {
                   </div>
                   <div className="col-12 col-md-4 p-20 text-center my-auto">
                         <div className="mx-auto" style={{ width: "fit-content" }}>
+                              <div className="container text-left">
                               <h5 className="text-white font-weight-bold p-0 m-0">Manipal Information Security Team</h5>
                               <p className="text-center text-md-left p-0 m-0">Manipal Institute of Technology<br />Udupi, Karnataka<br />576104</p>
+                              </div>
                         </div>
                   </div>
                   <div className="col-12 col-md-4 p-20 my-auto">

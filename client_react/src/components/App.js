@@ -30,7 +30,6 @@ class App extends Component {
 				<div className="content-wrapper">
 					<Switch>
 						<Route exact path="/"  component={Boot} />
-						<Route exact path="/geek" render={() => {window.location.href="/geek.html"}} />
 						<Route exact path="/home" component={Landing} />
 						<Route exact path="/team" component={Team} />
 						<Route exact path="/news" component={News} />

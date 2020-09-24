@@ -104,7 +104,7 @@ class Landing extends Component {
                                           <div className="row domain-holder col-12">
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={Cryptography} className="img-fluid rounded-top" alt="cryptography" />
+                                                            <img src={Cryptography} className="img-fluid rounded" alt="cryptography" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
@@ -119,7 +119,7 @@ class Landing extends Component {
 
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={Webdev} className="img-fluid rounded-top" alt="web development" />
+                                                            <img src={Webdev} className="img-fluid rounded" alt="web development" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
@@ -134,7 +134,7 @@ class Landing extends Component {
 
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={Research} className="img-fluid rounded-top" alt="research" />
+                                                            <img src={Research} className="img-fluid rounded" alt="research" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
@@ -149,7 +149,7 @@ class Landing extends Component {
 
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={Ctfs} className="img-fluid rounded-top" alt="ctfs" />
+                                                            <img src={Ctfs} className="img-fluid rounded" alt="ctfs" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
@@ -164,7 +164,7 @@ class Landing extends Component {
 
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={CyberAwareness} className="img-fluid rounded-top" alt="cyber awareness" />
+                                                            <img src={CyberAwareness} className="img-fluid rounded" alt="cyber awareness" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
@@ -179,7 +179,7 @@ class Landing extends Component {
 
                                                 <div className="domain-card col-12 col-md-6 col-lg-4">
                                                       <div className="card p-0 border-0">
-                                                            <img src={Networking} className="img-fluid rounded-top" alt="networking" />
+                                                            <img src={Networking} className="img-fluid rounded" alt="networking" />
 
                                                             <div className="content">
                                                                   <h2 className="content-title text-white">
