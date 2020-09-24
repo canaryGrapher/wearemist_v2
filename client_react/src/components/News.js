@@ -107,16 +107,16 @@ class News extends Component {
         <Navbar />
         <div className="container px-md-10">
         <div className="row-fluid h-100"></div>
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column px-10 px-md-0">
           <h1 className="d-none d-md-block mb-0 pb-0">Welcome to CyberManipal</h1>
           <h3 className="d-md-none mb-0 pb-0">Welcome to CyberManipal</h3>
           <h5 className="pb-20 text-muted">Your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technolgy and supervised by Manipal Inforamtion Security Team.</h5>
         </div>
-        < div className="row py-15" >
+        < div className="row px-10 px-md-0 py-15" >
           <p><span className="px-10 py-5 bg-dark text-light">Trending Now</span>
             <span className="py-5 pl-10 text-wrap">The latest trending news from the cybersecurity world</span></p>
         </div >
-        <div className="container d-flex flex-column flex-md-row">
+        <div className="px-10 px-md-0 d-flex flex-column flex-md-row">
           <div className="col-12 col-md-7">
             {bignews}
           </div>
@@ -126,7 +126,7 @@ class News extends Component {
         </div>
         <CategoryBar />
         <div className="container mb-20">
-          <div className="row">
+          <div className="row px-10 px-md-0">
             <p className="px-10 py-5 bg-dark text-light">Recent Now</p>
             <p className="py-5 pl-10">These are happening in the recently in the cybersecurity world.</p>
           </div>

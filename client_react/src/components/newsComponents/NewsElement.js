@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function NewsElement(props) {
       return (
-            <div className="col-12 col-md-6 col-lg-3 my-10 animate__animated animate__fadeIn">
+            <div className="col-12 col-md-6 col-lg-3 my-md-10 animate__animated animate__fadeIn">
                   <Link to={props.toLink} style={{ textDecoration: "none" }}>
                         <div className="card p-0 m-0">
                               <img src={props.imgLink} loading="lazy" className="img-fluid rounded-top h-150 w-full d-none d-md-block m-0 p-0" alt={props.heading} />

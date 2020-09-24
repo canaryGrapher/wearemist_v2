@@ -35,7 +35,7 @@ class Contributorprofile extends Component {
                   <div className="row-fluid">
                         {loadornot}
                         <Navbar />
-                  <div className="container mt-20" style={{ minHeight: "100vh", paddingTop: "80px" }}>
+                  <div className="container" style={{ minHeight: "100vh", paddingTop: "80px" }}>
                         <div className="d-flex flex-column flex-md-row mt-20 pt-20">
                               <img className="img rounded-circle w-250 h-250 w-md-150 h-md-150 mx-auto mx-md-10" src={this.state.data.avatar} alt={this.state.data.name} />
                               <div className="d-flex flex-column justify-content-center ml-md-10">

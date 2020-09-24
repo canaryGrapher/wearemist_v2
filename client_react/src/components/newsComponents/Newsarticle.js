@@ -51,9 +51,9 @@ class Newsarticle extends Component {
                         <Navbar />
                         {loadornot}
                         <div className="container w-full w-md-three-quarter w-lg-half" style={{paddingTop: "15vh"}}>
-                              <div className="container px-10">
-                                    <h1 className="text-left d-none d-md-inline">{this.state.data.newsHeading}</h1>
-                                    <h4 className="text-center d-md-none m-0 px-5 pb-5">{this.state.data.newsHeading}</h4>
+                              <div className="row-fluid px-5 px-md-0">
+                                    <h1 className="font-weight-bold text-left d-none d-md-inline">{this.state.data.newsHeading}</h1>
+                                    <p className="font-weight-bold text-left d-md-none m-0 pb-5" style={{fontSize: "2.5rem"}}>{this.state.data.newsHeading}</p>
                               </div>
                               <img className="img-fluid w-full py-15" src={this.state.data.highlightPhoto} alt={this.state.data.newsHeading} />
                               
