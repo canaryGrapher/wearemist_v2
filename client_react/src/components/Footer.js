@@ -12,7 +12,7 @@ function Footer() {
                         <div className="mx-auto" style={{ width: "fit-content" }}>
                               <div className="container text-left">
                               <h5 className="text-white font-weight-bold p-0 m-0">Manipal Information Security Team</h5>
-                              <p className="text-center text-md-left p-0 m-0">Manipal Institute of Technology<br />Udupi, Karnataka<br />576104</p>
+                              <p className="text-light text-left p-0 m-0">Manipal Institute of Technology<br />Udupi, Karnataka<br />576104</p>
                               </div>
                         </div>
                   </div>
@@ -20,12 +20,12 @@ function Footer() {
                         <div className="row" style={{ fontSize: "2.5rem" }}>
                               <div className="mx-auto">
                                     <p className="m-0 p-0 text-center">More ways to connect</p>
-                                    <a href="https://www.instagram.com/sudo.mist/" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 mx-auto fab fa-instagram"></i></a>
-                                    <a href="https://www.facebook.com/wearemist.in/" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 mx-auto fab fa-facebook-f"></i></a>
-                                    <a href="https://www.linkedin.com/company/manipal-information-security-team" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 mx-auto fab fa-linkedin-in"></i></a>
-                                    <a href="https://github.com/MIST1819" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 mx-auto fab fa-github"></i></a>
-                                    <a href="https://twitter.com/sudo_mist" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 mx-auto fab fa-twitter"></i></a>
-                                    <a href="mailto:sudo@wearemist.in"><i className="p-10 col-md-2 col-4 mx-auto fas fa-envelope"></i></a>
+                                    <a href="https://www.instagram.com/sudo.mist/" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 text-center fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/wearemist.in/" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 text-center fab fa-facebook-f"></i></a>
+                                    <a href="https://www.linkedin.com/company/manipal-information-security-team" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 text-center fab fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/MIST1819" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 text-center fab fa-github"></i></a>
+                                    <a href="https://twitter.com/sudo_mist" target="_blank" rel="noopener noreferrer"><i className="p-10 col-md-2 col-4 text-center fab fa-twitter"></i></a>
+                                    <a href="mailto:sudo@wearemist.in"><i className="p-10 col-md-2 col-4 text-center fas fa-envelope"></i></a>
                               </div>
                         </div>
                         <p className="text-center">I made this website. <a href="/credits">Find me</a>.</p>

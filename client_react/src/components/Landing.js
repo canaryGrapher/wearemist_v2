@@ -71,7 +71,7 @@ class Landing extends Component {
                   <div className="container-fluid">
                         {loadingOrNot}
                         <Navbar />
-                        <video autoPlay loop muted style={{ position: "fixed", right: "0", bottom: "0", minWidth: "100%", minHeight: "100%", zIndex: "-10" }} src={VideoLocation} type="video/mp4" onPlay={this.hideLoader} />
+                        <video autoPlay controls="false" loop muted playsinline="true" disablePictureInPicture="true" style={{ position: "fixed", right: "0", bottom: "0", minWidth: "100%", minHeight: "100%", zIndex: "-10" }} src={VideoLocation} type="video/mp4" onPlay={this.hideLoader} />
 
                         <div className="container-fluid text-center">
                               <div className="container-fluid container-first d-flex flex-column justify-content-center bg-black-gradient">
