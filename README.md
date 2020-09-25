@@ -31,3 +31,7 @@ The following were used to make the webpage.
 
 ### Geek Page
 ![Geek Page](https://raw.githubusercontent.com/canaryGrapher/wearemist_v2/master/extras/geekpage.png)
+
+
+## Raising Issues
+Raise an issue if you find any security flaws, disclosed secrets, or any other bug in the code. I will mention your username here with the bug you found. Cheers.
