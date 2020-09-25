@@ -23,5 +23,16 @@ router.get("/stats", (req, res) => {
       }
 })
 
+router.get("/profilepic", (req, res) => {
+      try {
+            collectionWriters.findOne({name: `${req.query.author}`}, (err, profileImage) => {
+                  if(err) throw err;
+                  res.status(200).send(profileImage)
+            })
+      } catch(err) {
+            res.status(500).json({msg: "Server Error"})
+      }
+})
+
 module.exports = router
 

@@ -29,17 +29,25 @@ class Newsarticle extends Component {
             this.state = {
                   data: [],
                   linkend: "",
+                  profileImage: "",
                   loaded: false
             }
       }
-      componentDidMount() {
+      async componentDidMount() {
             // getting the response from the backend
-            const parsed = queryString.parse(window.location.search)
-            axios.get(`https://api.wearemist.in/news/getparticularNews?id=${parsed.id}`)
+            const parsed = await queryString.parse(window.location.search)
+            await axios.get(`https://api.wearemist.in/news/getparticularNews?id=${parsed.id}`)
                   .then(response => {
                         this.setState({loaded: true})
                         this.setState({ data: response.data  })
                         this.setState({ linkend: this.state.data.filterTags.split(' ').join('').toLowerCase() })
+                  })
+                  .catch((err) => {
+                        console.log(err)
+                  })
+            await axios.get(`https://api.wearemist.in/profile/profilepic?author=${this.state.data.author}`)
+                  .then(response => {
+                        this.setState({profileImage: response.data})
                   })
                   .catch((err) => {
                         console.log(err)
@@ -72,7 +80,7 @@ class Newsarticle extends Component {
                               <div className="content" style={{ fontSize: "20px" }}>
                                     <div className="container">
                                           <div className="row mt-20">
-                                                <img className="img rounded-circle" style={{ height: "40px", width: "40px" }} src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" alt={this.state.data.author} />
+                                                <img className="img rounded-circle" style={{ height: "40px", width: "40px" }} src={this.state.profileImage.avatar} alt={this.state.data.author} />
                                                 <Link to={`../../profile?author=${this.state.data.author}`} style={{ textDecoration: "none" }}><p className="my-10 ml-10 font-size-40" style={{ fontSize: "18px" }}><span className="font-weight-bold text-dark">{this.state.data.author}</span></p></Link>
                                           </div>
                                     </div>
