@@ -21,6 +21,7 @@ import {
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Loader from '../Loader'
+import MetaTags from 'react-meta-tags';
 
 class Newsarticle extends Component {
       constructor() {
@@ -46,10 +47,19 @@ class Newsarticle extends Component {
       }
       render() {
             const loadornot = !this.state.loaded ? <Loader /> : null
+            const ogTitle = this.state.data.newsHeading + " | CyberManipal"
+            const description = this.state.data.para ? this.state.data.para.split('.')[0] + this.state.data.para.split('.')[1] : null
             return (
                   <div className="container-fluid">
                         <Navbar />
                         {loadornot}
+                        <MetaTags>
+                              <title>{ogTitle}</title>
+                              <meta name="description" content={description} />
+                              <meta property="og:title" content={ogTitle} />
+                              <meta property="og:image" content={this.state.data.highlightPhoto} />
+                              <meta name="robots" content="index, follow" />
+                        </MetaTags>
                         <div className="container w-full w-md-three-quarter w-lg-half" style={{paddingTop: "15vh"}}>
                               <div className="row-fluid px-5 px-md-0">
                                     <h1 className="font-weight-bold text-left d-none d-md-inline">{this.state.data.newsHeading}</h1>

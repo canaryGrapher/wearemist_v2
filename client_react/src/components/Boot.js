@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/boot.css'
+import MetaTags from 'react-meta-tags';
+import Logo from '../images/logo/logoDark.png'
 
 class Boot extends Component {
       constructor() {
@@ -51,6 +53,13 @@ class Boot extends Component {
             const guiMessage = this.state.gui ? <p>( Selected ) </p> : null;
             return (
                   <div className="container-fluid text-center text-dark p-0 m-0 boot-container" style={{overflow: "hidden", minHeight: "100vh"}}>
+                        <MetaTags>
+                              <title>Boot | Manipal Information Security Team</title>
+                              <meta name="description" content="We are a team of Information and Network Security enthusiasts who aim to spread the knowledge to other students with an interest in this ever-growing field of Computer Science" />
+                              <meta property="og:title" content="Boot | Manipal Information Security Team" />
+                              <meta property="og:image" content={Logo} />
+                              <meta name="robots" content="index, follow" />
+                        </MetaTags>
                         <div className="d-flex flex-column justify-content-center p-0 m-0" style={{maxHeight: "15vh", minHeight: "15vh", overflow: "hidden"}}>
                               <h1 className="d-md-none">MIST</h1>
                               <h5 className="d-none d-md-inline">Manipal Information Security Team <div className="d-inline">&nbsp;</div><div className="d-inline">&nbsp;</div> version - Stable-Version_3.0.9-def:24.09.2020</h5>

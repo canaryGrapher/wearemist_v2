@@ -20,9 +20,9 @@ function AnnouncementModal(props) {
                                           </div>
                                     </div>
                                     <div className="d-flex flex-column flex-md-row justify-content-around mt-5">
-                                          <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Venue: </span>{props.venue}</h5>
-                                          <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Timings: </span>{props.timing}</h5>
-                                          <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Link: </span>{props.link}</h5>
+                                          {props.venue ? <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Venue: </span>{props.venue}</h5> : null}
+                                          {props.timing ? <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Timings: </span>{props.timing}</h5> : null}
+                                          {props.link ? <h5 className="mt-0 mb-0"><span className="font-weight-bold mt-0 mb-0">Link: </span><a href="props.link">{props.link}</a></h5> : null}
                                     </div>
                               </div>
                         </div>

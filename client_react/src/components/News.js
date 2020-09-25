@@ -7,6 +7,8 @@ import NewsElement from './newsComponents/NewsElement'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Loader from './Loader'
+import MetaTags from 'react-meta-tags'
+import Logo from '../images/logo/logoDark.png'
 class News extends Component {
   constructor() {
     super();
@@ -23,9 +25,9 @@ class News extends Component {
           <Link key={item._id} to={"news/newsarticle?id=" + item._id + "&heading=" + item.newsHeading.split(' ').join('-')}>
             <div key={item._id} className="h-250 h-md-500 w-full bg-dark newsContainer mb-10 mb-md-0 animate__animated animate__fadeInUp" style={{ borderRightWidth: "2.5px", borderColor: "#fff", borderStyle: "solid" }}>
               <img src={item.highlightPhoto} alt={item.newsHeading} style={{ width: "100%", height: "100%" }} />
-              <div className="text-block">
-                <p className="text-white"><span className="p-5 bg-dark">{item.filterTags}</span></p>
-                <h4 className="text-light d-none d-md-block">{item.newsHeading}</h4>
+              <div className="text-block pt-10">
+                <p className="text-white"><span className="p-5 bg-very-dark">{item.filterTags}</span></p>
+                <h4 className="text-light d-none d-md-block mt-0 pt-5">{item.newsHeading}</h4>
                 <h6 className="text-light font-weight-bold d-md-none">{item.newsHeading}</h6>
               </div>
             </div>
@@ -42,9 +44,9 @@ class News extends Component {
           <Link key={item._id} to={"news/newsarticle?id=" + item._id + "&heading=" + item.newsHeading.split(' ').join('-')}>
             <div key={item._id} className="h-250 w-full bg-dark newsContainer mb-10 mb-md-0 animate__animated animate__fadeInUp" style={{ borderBottomWidth: "2.5px", borderColor: "#fff", borderStyle: "solid" }}>
               <img src={item.highlightPhoto} alt={item.newsHeading} style={{ width: "100%", height: "100%" }} />
-              <div className="text-block">
-                <p className="text-white"><span className="px-5 bg-dark">{item.filterTags}</span></p>
-                <h6 className="text-light font-weight-bold">{item.newsHeading}</h6>
+              <div className="text-block pt-10">
+                <p className="text-white"><span className="p-5 bg-very-dark">{item.filterTags}</span></p>
+                <h6 className="text-light font-weight-bold  mt-0 pt-5">{item.newsHeading}</h6>
               </div>
             </div>
           </Link>
@@ -105,6 +107,13 @@ class News extends Component {
     const loadingOrNot = !this.state.loaded ? <Loader /> : null;
     return (
       <div className="container-fluid">
+        <MetaTags>
+          <title>CyberManipal | Manipal Information Security Team</title>
+          <meta name="description" content="Your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technolgy and supervised by Manipal Inforamtion Security Team." />
+          <meta property="og:title" content="CyberManipal | Manipal Information Security Team" />
+          <meta property="og:image" content={Logo} />
+          <meta name="robots" content="index, follow" />
+        </MetaTags>
         {loadingOrNot}
         <Navbar />
         <div className="container px-md-10">
@@ -128,7 +137,7 @@ class News extends Component {
           </div>
         </div>
         <div className="container mb-20">
-          <div className="row px-10 px-md-0">
+          <div className="row px-10 px-md-0 my-10">
             <p className="px-10 py-5 bg-dark text-light">Recent Now</p>
             <p className="py-5 pl-10">These are happening in the recently in the cybersecurity world.</p>
           </div>

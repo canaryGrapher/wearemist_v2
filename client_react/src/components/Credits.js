@@ -22,12 +22,20 @@ import MistLogo from '../images/logo/logoDark.png'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import VideoLocation from '../images/videos/landing.mp4'
+import MetaTags from 'react-meta-tags';
 
 
 function Credits() {
   return (
     <div className="container-fluid">
-      <Navbar />
+      <Navbar />                        
+      <MetaTags>
+        <title>Credits | Manipal Information Security Team</title>
+        <meta name="description" content="We are a team of Information and Network Security enthusiasts who aim to spread the knowledge to other students with an interest in this ever-growing field of Computer Science" />
+        <meta property="og:title" content="Credits | Manipal Information Security Team" />
+        <meta property="og:image" content={MistLogo} />
+        <meta name="robots" content="noindex, nofollow" />
+      </MetaTags>
       <div className="container">
       <div className="row" style={{ paddingTop: "15vh" }}>
         <div className="col-12 col-md-6">

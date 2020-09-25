@@ -6,6 +6,8 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Loader from './Loader'
 import MicImage from '../images/assets/mic.jpeg'
+import MetaTags from 'react-meta-tags';
+import Logo from '../images/logo/logoDark.png'
 
 class Announcements extends Component {
       constructor() {
@@ -32,6 +34,12 @@ class Announcements extends Component {
                   <div className="container-fluid">
                         {!this.state.loaded ? <Loader /> : null}
                         <Navbar />
+                        <MetaTags>
+                              <title>Announcements | Manipal Information Security Team</title>
+                              <meta name="description" content="We are a team of Information and Network Security enthusiasts who aim to spread the knowledge to other students with an interest in this ever-growing field of Computer Science" />
+                              <meta property="og:title" content="Announcements | Manipal Information Security Team" />
+                              <meta property="og:image" content={Logo} />
+                        </MetaTags>
                         {clubNews}
                         <div className="container-fluid h-450 bg-very-dark" style={{ backgroundImage: `url("${MicImage}")`, backgroundSize: "cover", backgroundAttachment: "fixed", backgroundPosition: "center" }}>
                         </div>

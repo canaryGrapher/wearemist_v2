@@ -11,6 +11,8 @@ import Research from '../images/assets/research.jpg'
 import Webdev from '../images/assets/webdev.jpg'
 import Loader from './Loader'
 import VideoLocation from '../images/videos/landing.mp4'
+import MetaTags from 'react-meta-tags'
+import Logo from '../images/logo/logoDark.png'
 
 class Landing extends Component {
       constructor() {
@@ -71,6 +73,13 @@ class Landing extends Component {
                   <div className="container-fluid">
                         {loadingOrNot}
                         <Navbar />
+                        <MetaTags>
+                              <title>Home | Manipal Information Security Team</title>
+                              <meta name="description" content="We are a team of Information and Network Security enthusiasts who aim to spread the knowledge to other students with an interest in this ever-growing field of Computer Science" />
+                              <meta property="og:title" content="Home | Manipal Information Security Team" />
+                              <meta property="og:image" content={Logo} />
+                              <meta name="robots" content="index, follow" />
+                        </MetaTags>
                         <video autoPlay loop muted playsinline="true" disablePictureInPicture="true" style={{ position: "fixed", right: "0", bottom: "0", minWidth: "100%", minHeight: "100%", zIndex: "-10", pointerEvents: "none" }} src={VideoLocation} type="video/mp4" onPlay={this.hideLoader} />
 
                         <div className="container-fluid text-center">

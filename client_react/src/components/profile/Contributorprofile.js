@@ -5,6 +5,7 @@ import NewsElement from '../newsComponents/NewsElement'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Loader from '../Loader'
+import MetaTags from 'react-meta-tags';
 
 class Contributorprofile extends Component {
       constructor() {
@@ -24,19 +25,37 @@ class Contributorprofile extends Component {
             })
 
             const webpage = this.state.data.website ? <a href={this.state.data.website} target="_blank" rel="noopener noreferrer"><i className="fas fa-globe-asia mx-10" style={{ fontSize: '3rem', color: "#2980B9" }}></i></a> : null
+
             const githubLink = this.state.data.github ? <a href={this.state.data.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github mx-10" style={{ fontSize: '3rem', color: "#6e5494" }}></i></a> : null
+
             const linkedinLink = this.state.data.linkedin ? <a href={this.state.data.linkedin} target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin mx-10" style={{ fontSize: '3rem', color: '#0e76a8' }}></i></a> : null
+
             const email = this.state.data.email ? <a href={`mailto:${this.state.data.email}`} target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope mx-10" style={{ fontSize: '3rem', color: '#0e76a8' }}></i></a> : null
+
             const blogger = this.state.data.blogger ? <a href={this.state.data.blogger} target="_blank" rel="noopener noreferrer" > <i className="fab fa-blogger-b mx-10" style={{ fontSize: '3rem', color: '#fc4f08' }}></i></a> : null
+
             const medium = this.state.data.medium ? <a href={this.state.data.medium} target="_blank" rel="noopener noreferrer" > <i className="fab fa-medium-m mx-10" style={{ fontSize: '3rem', color: '#0e0e0e' }}></i></a > : null
+
             const twitter = this.state.data.twitter ? <a href={this.state.data.twitter} target="_blank" rel="noopener noreferrer" > <i className="fab fa-twitter mx-10" style={{ fontSize: '3rem', color: '#00acee' }}></i></a > : null
+
             const facebook = this.state.data.facebook ? <a href={this.state.data.facebook} target="_blank" rel="noopener noreferrer" > <i className="fab fa-facebook-f mx-10" style={{ fontSize: '3rem', color: '#3b5998' }}></i></a > : null
+
             const instagram = this.state.data.instagram ? <a href={this.state.data.instagram} target="_blank" rel="noopener noreferrer" > <i className="fab fa-instagram mx-10" style={{ fontSize: '3rem', color: '#E1306C' }}></i></a > : null
+
             const youtube = this.state.data.youtube ? <a href={this.state.data.youtube} target="_blank" rel="noopener noreferrer" > <i className="fab fa-youtube mx-10" style={{ fontSize: '3rem', color: '#FF0000' }}></i></a > : null
+
+            const ogTitle = this.state.data.name + " | CyberManipal"
             return (
                   <div className="row-fluid">
                         {loadornot}
                         <Navbar />
+                        <MetaTags>
+                              <title>{ogTitle}</title>
+                              <meta name="description" content="Meet the writers at CyberManipal, your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technolgy and supervised by Manipal Inforamtion Security Team." />
+                              <meta property="og:title" content={ogTitle} />
+                              <meta property="og:image" content={this.state.data.avatar} />
+                              <meta name="robots" content="index, follow" />
+                        </MetaTags>
                   <div className="container" style={{ minHeight: "100vh", paddingTop: "80px" }}>
                         <div className="d-flex flex-column flex-md-row mt-20 pt-20">
                               <img className="img rounded-circle w-250 h-250 w-md-150 h-md-150 mx-auto mx-md-10" src={this.state.data.avatar} alt={this.state.data.name} />
