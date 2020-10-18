@@ -230,7 +230,7 @@ class Landing extends Component {
                                                                   <label htmlFor="email" className="required">Email</label>
                                                                   <input type="Email" className="form-control" id="email" name="email" placeholder="Enter your email here" required="required" onChange={this.handleChangeEmail} />
                                                                   <div className="form-text text-white">
-                                                                        We would like you to give us a email with which we can get back to you
+                                                                        We would like you to give us an email with which we can get back to you
                                                       </div>
                                                             </div>
                                                             <div className="form-group">
