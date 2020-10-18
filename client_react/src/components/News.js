@@ -121,7 +121,7 @@ class News extends Component {
         <div className="d-flex flex-column px-10 px-md-0">
           <h1 className="d-none d-md-block mb-0 pb-0">Welcome to CyberManipal</h1>
           <h3 className="d-md-none mb-0 pb-0">Welcome to CyberManipal</h3>
-          <h5 className="pb-20 text-muted">Your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technolgy and supervised by Manipal Inforamtion Security Team.</h5>
+          <h5 className="pb-20 text-muted">Your destination for cyber security news. The official cybersecurity news page run by students of Manipal Institute of Technology and supervised by Manipal Information Security Team.</h5>
         </div>
         <CategoryBar />
         < div className="row px-10 px-md-0 py-15" >
