@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecff8a72.chunk.css",
+    "main.js": "/static/js/main.7b0d56f0.chunk.js",
+    "main.js.map": "/static/js/main.7b0d56f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.03887cff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
+    "static/js/2.c0ed4d50.chunk.js": "/static/js/2.c0ed4d50.chunk.js",
+    "static/js/2.c0ed4d50.chunk.js.map": "/static/js/2.c0ed4d50.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ecff8a72.chunk.css.map": "/static/css/main.ecff8a72.chunk.css.map",
+    "static/js/2.c0ed4d50.chunk.js.LICENSE.txt": "/static/js/2.c0ed4d50.chunk.js.LICENSE.txt",
+    "static/media/animatecss.01183dd9.png": "/static/media/animatecss.01183dd9.png",
+    "static/media/boot.css": "/static/media/backgroundBoot.6f166343.png",
+    "static/media/creator.9a37c6ad.jpg": "/static/media/creator.9a37c6ad.jpg",
+    "static/media/cryptography.899e7889.jpg": "/static/media/cryptography.899e7889.jpg",
+    "static/media/ctfs.1494ebb7.jpg": "/static/media/ctfs.1494ebb7.jpg",
+    "static/media/cyberawareness.861d370e.jpg": "/static/media/cyberawareness.861d370e.jpg",
+    "static/media/errorPage.69e9b798.jpg": "/static/media/errorPage.69e9b798.jpg",
+    "static/media/errorPage.css": "/static/media/errorPage.7a330923.jpg",
+    "static/media/googleFonts.c33d9deb.png": "/static/media/googleFonts.c33d9deb.png",
+    "static/media/halfmoon.61fa9d7b.png": "/static/media/halfmoon.61fa9d7b.png",
+    "static/media/landing.bfac8db1.mp4": "/static/media/landing.bfac8db1.mp4",
+    "static/media/mic.18111b9e.jpeg": "/static/media/mic.18111b9e.jpeg",
+    "static/media/mongodb.f3902e8f.png": "/static/media/mongodb.f3902e8f.png",
+    "static/media/networking.6714da13.jpg": "/static/media/networking.6714da13.jpg",
+    "static/media/nodejs.2f9a4c61.png": "/static/media/nodejs.2f9a4c61.png",
+    "static/media/pexels.34f8cb63.jpg": "/static/media/pexels.34f8cb63.jpg",
+    "static/media/react.69bdee9b.png": "/static/media/react.69bdee9b.png",
+    "static/media/research.6606df85.jpg": "/static/media/research.6606df85.jpg",
+    "static/media/teams.fc02759f.jpg": "/static/media/teams.fc02759f.jpg",
+    "static/media/unsplash_logo.669c8912.png": "/static/media/unsplash_logo.669c8912.png",
+    "static/media/webdev.2a473904.jpg": "/static/media/webdev.2a473904.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03887cff.js",
+    "static/js/2.c0ed4d50.chunk.js",
+    "static/css/main.ecff8a72.chunk.css",
+    "static/js/main.7b0d56f0.chunk.js"
+  ]
+}

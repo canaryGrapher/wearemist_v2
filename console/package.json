@@ -1,0 +1,15 @@
+{
+  "name": "console_wearemist",
+  "version": "1.0.0",
+  "description": "Console application for wearemist.in",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Yash Aryan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,22 @@
+.active {
+      color: #f39111 !important;
+      font-weight: bold;
+}
+
+.nav-link {
+      color: #d8d8d8;
+}
+
+.nav-link:hover {
+      color: #d3b530;
+}
+
+.expand-navbar {
+      position: absolute;
+      min-width: 100vw;
+      min-height: 50vh;
+}
+
+.responsive-links {
+      list-style-type: none;
+}
