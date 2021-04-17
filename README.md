@@ -35,3 +35,5 @@ The following were used to make the webpage.
 
 ## Raising Issues
 Raise an issue if you find any security flaws, disclosed secrets, or any other bug in the code. I will mention your username here with the bug you found. Cheers.
+
+[@L3thal14](https://chat.whatsapp.com/BnrNBDF5hfh20ib432QZIr) - For discovering exposed credentials in a recent commit.
