@@ -1,7 +1,8 @@
 repo_name: canaryGrapher/wearemist_v2
 report_id: 886492490a06f69881f9a76eb41e8639
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T05:05:15+00:00'
+timestamp: '2024-01-05T08:59:54+00:00'
 requested_by: canaryGrapher
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -49,8 +53,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: backend_api/package.json
-  detection_source: console/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
+  detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
 - name: React
@@ -63,7 +67,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -77,7 +81,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -90,7 +94,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source_url: backend_api/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -103,6 +107,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -114,6 +119,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2
   detection_source: Repo Metadata
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
@@ -123,6 +129,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -136,7 +143,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: backend_api/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -148,6 +155,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/package.json
   detection_source: package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -161,7 +169,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -175,7 +183,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -190,7 +198,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -204,7 +212,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/package.json
   detection_source: package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -218,8 +226,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: backend_api/package.json
-  detection_source: console/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
+  detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
   vulnerabilities:
@@ -239,7 +247,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16278/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: backend_api/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/backend_api/package.json
   detection_source: backend_api/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -266,7 +274,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -280,7 +288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -294,7 +302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
@@ -308,7 +316,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: client_react/package.json
+  detection_source_url: https://github.com/canaryGrapher/wearemist_v2/blob/master/client_react/package.json
   detection_source: client_react/package.json
   last_updated_by: Yash Aryan
   last_updated_on: 2021-04-01 16:51:06.000000000 Z
