@@ -3,14 +3,14 @@
 ## Tech Stack
 canaryGrapher/wearemist_v2 is built on the following main stack:
 
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- [React](https://reactjs.org/) – Javascript UI Libraries
 - [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [MongoDB](http://www.mongodb.com/) – Databases
 - [nodemon](http://nodemon.io/) – node.js Application Monitoring
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -20,14 +20,14 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 canaryGrapher/wearemist_v2 is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/5577/preview.png' alt='nodemon'/> [nodemon](http://nodemon.io/) – node.js Application Monitoring
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -38,7 +38,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [canaryGrapher/wearemist_v2](https://github.com/canaryGrapher/wearemist_v2)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|22<br/>Tools used|01/05/24 <br/>Report generated|
+|22<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -182,7 +182,7 @@ Full tech stack [here](/techstack.md)
 |[@testing-library/react](https://www.npmjs.com/@testing-library/react)|v9.5.0|04/01/21|Yash Aryan |MIT|N/A|
 |[concurrently](https://www.npmjs.com/concurrently)|v5.3.0|04/01/21|Yash Aryan |MIT|N/A|
 |[express](https://www.npmjs.com/express)|v4.17.1|04/01/21|Yash Aryan |MIT|[CVE-2022-24999](https://github.com/advisories/GHSA-hrpp-h998-j3pp) (High)|
-|[nodemailer](https://www.npmjs.com/nodemailer)|v6.4.2|04/01/21|Yash Aryan |MIT|[CVE-2020-7769](https://github.com/advisories/GHSA-48ww-j4fc-435p) (Critical)<br/>[CVE-2021-23400](https://github.com/advisories/GHSA-hwqf-gcqm-7353) (Moderate)|
+|[nodemailer](https://www.npmjs.com/nodemailer)|v6.4.2|04/01/21|Yash Aryan |MIT|[CVE-2020-7769](https://github.com/advisories/GHSA-48ww-j4fc-435p) (Critical)<br/>[](https://github.com/advisories/GHSA-9h6g-pr28-7cqp) (Moderate)<br/>[CVE-2021-23400](https://github.com/advisories/GHSA-hwqf-gcqm-7353) (Moderate)|
 |[query-string](https://www.npmjs.com/query-string)|v6.13.2|04/01/21|Yash Aryan |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v16.13.1|04/01/21|Yash Aryan |MIT|N/A|
 |[react-router-dom](https://www.npmjs.com/react-router-dom)|v5.2.0|04/01/21|Yash Aryan |MIT|N/A|
