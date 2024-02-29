@@ -2,7 +2,7 @@ repo_name: canaryGrapher/wearemist_v2
 report_id: 886492490a06f69881f9a76eb41e8639
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:59:54+00:00'
+timestamp: '2024-02-29T18:28:39+00:00'
 requested_by: canaryGrapher
 provider: github
 branch: master
@@ -258,6 +258,12 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 6.4.16
+  - name: nodemailer ReDoS when trying to send a specially crafted email
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9h6g-pr28-7cqp
+    detected_date: Feb 1
+    severity: moderate
+    first_patched: 6.9.9
   - name: Header injection in nodemailer
     cve_id: CVE-2021-23400
     cve_url: https://github.com/advisories/GHSA-hwqf-gcqm-7353
